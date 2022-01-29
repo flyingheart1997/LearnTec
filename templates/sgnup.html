@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Enroll</title>
+<link href="/static/css/sgnup.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <style>
+    #msg {
+    visibility: hidden;
+    min-width: 250px;
+    background-color:yellow;
+    color: #000;
+    border-radius: 2px;
+    padding: 16px;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    font-size: 17px;
+}
+
+#msg.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+    </style>
+</head>
+
+<body>
+<div class="signup" style="margin-top: 50px;padding-top: 20px;height: 450px;">
+    <form method="post" action="{% url 'enrol' %}" >
+        {% csrf_token %}
+        <h2 style="color: #fff;">Enrollment</h2>
+        <input type="text" name="first_name" placeholder="Full name" required><br><br>
+        <input type="text" name="last_name" placeholder="Last name" required><br><br>
+        <input type="text" name="email" placeholder="Email address" required><br><br>
+        <input type="text" name="phone" placeholder="Phone No" required><br><br>  
+        <input type="text" name="country" placeholder="Country" required><br><br> <br><br> 
+          
+        <button type="submit" class="sign" style="width:190px;font-size: 16px;background: white;border: none;line-height: 25px;padding: 10px 0;border-radius: 15px;cursor: pointer;" onmouseover="this.style.background='black';this.style.color='white'" onmouseout="this.style.background='white';this.style.color='black'" >Enrollment</button><br><br><br>
+        
+        </form>
+</div>
+</body>
+</html>

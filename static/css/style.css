@@ -1,0 +1,704 @@
+@font-face {
+    font-family: Josefin;
+    src: url('../fonts/Josefin_Sans/JosefinSans-Regular.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;	
+	text-decoration: none;
+	list-style: none;
+}
+body{
+ 	background-image: url(../img/cover-bg-1.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-attachment: fixed;  
+}
+.btn{
+	border: 2px solid pink !important;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 100px !important;
+	margin-top: 25px !important;
+}
+.btn:hover{
+	text-decoration: none;
+	border-color: yellow !important;
+	background-color: rgba(0,0,0,0.8);
+	transform: scale(1.1);
+}
+.btn a{
+
+	text-decoration:none !important;
+	color: yellow;
+	font-size: 17px;
+	font-family: Josefin;
+	letter-spacing: 1px;
+}
+.btn a:hover{
+	text-decoration:none !important;
+	color: white;
+}
+.btn1{
+	border: 2px solid pink !important;
+	border-radius: 100px !important;
+	padding: 5px 5px 5px 10px;
+	margin-top: 20px !important;
+	background-color: rgba(0,0,0,0.4);
+    
+	
+}
+.btn1:hover{
+	background-color: rgba(0,0,0,0.8) !important;
+    border-color: yellow;
+	transform: scale(1.1);
+}
+.btn1 a{
+
+	text-decoration:none !important;
+	color: yellow;
+	font-size: 17px;
+	font-family: Josefin;
+	letter-spacing: 1px;
+}
+.btn1 a:hover{
+	text-decoration:none !important;
+	color: white;
+}
+.btn3{
+	border: 2px solid pink !important;
+	border-radius: 100px !important;
+	padding: 5px 5px 5px 10px;
+	margin-top: 20px !important;
+	background-color: rgba(0,0,0,0.4);
+	
+	
+}
+.btn3:hover{
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.8) !important;
+    border-color: yellow;
+	transform: scale(1.1);
+}
+.btn3 a{
+
+	text-decoration:none !important;
+	color: yellow;
+	font-size: 17px;
+	font-family: Josefin;
+	letter-spacing: 1px;
+}
+.btn3 a:hover{
+	text-decoration:none !important;
+	color: white;
+}
+
+/*::::::::::::::::::::::::::::::::::::::*/
+
+.navbar{
+  background-color: rgba(0,0,0,0.8)!important;
+    border-top: transparent !important;
+    border-bottom: transparent !important;  
+}  
+.navbar ul li ul li{
+    text-align: center;
+    display: none;
+    text-decoration: none;
+    line-height: 25px;
+}
+.navbar ul li:hover > ul li{
+	display: block;
+}
+.navbar ul li ul li a{
+	text-decoration: none;
+}
+.navbar ul li a{
+	text-align: center;
+  color: white !important;
+  list-style: none;
+  height: 40px !important;
+  opacity: 1;
+  font-family: Josefin;
+  
+}
+
+.navbar ul li a:hover{
+  color: yellow !important;
+  font-weight: 500;
+  transform: scale(.9);
+}
+
+.navbar-toggle{
+	margin-top: 6px !important;
+  border:1.5px solid red !important;
+  transform: scale(.6);
+  transition: .1s ease infinite;
+  background-color: transparent !important;
+
+}
+
+.icon-bar{
+  border:1.5px solid red !important;
+}
+
+.navbar-toggle:hover{
+  transform: scale(.7);
+  transition: .1s ease infinite;
+  border-color: pink !important;
+}
+.navbar-collapse ul li a{
+	align-items: center;
+	text-align: center;
+	color: white !important;
+}
+
+ /*::::::::::::::::::::::::::::::::::::*/
+
+.slider{
+ 	width: 100%;
+ 	height: 700px;
+ 	background-image: url(../img/cover-bg-1.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-attachment: fixed;
+ }
+.slider-overlay{
+ 	width: 100%;
+ 	height: 100%;
+ 	background: rgba(0,0,0,.15);
+ 	position: relative;
+ }
+.slider-content{
+ 	position: absolute;
+ 	top: 39%;
+ 	width: 100%;
+ }
+.icon .fa{
+ 	font-size: 30px;
+ 	margin-right: 5px;
+ 	color: orange;
+ 	opacity: .5;
+ 	z-index: -1;
+ }
+ .icon .fa:hover{
+ 	color: red;
+ 	transform: scale(1.3);
+ }
+.social-networks .fa{
+ 	border: 1px solid orange;
+ 	padding: 7px;
+ 	margin-top: 35px;
+ 	margin: 0 0 0 3px;
+ 	width: 30px;
+ 	height: 30px;
+ 	border-radius: 25px;
+ }
+ .social-networks .fa:hover{
+ 	text-decoration: none;
+ 	transform: scale(1.2);
+    color: yellow;
+ }
+ .slider .text{
+ 	display: inline-block;
+ 	font-size: 35px;
+ 	color: white;
+ 	font-family: 'Great Vibes', cursive;
+ 	letter-spacing: 4px;
+
+ }
+ .primary{
+ 	color: skyblue;
+ }
+ .primary1{
+ 	color: yellow;
+ }
+.primary2{
+	color: deeppink;
+}
+.primary3{
+	color: crimson;
+}
+button{
+	border: 2px solid red;
+	border-radius: 100px;
+	background-color: transparent;
+	padding: 5px 15px 4px 15px;
+	margin-left: 10px !important;
+	margin-top: -10px !important;
+}
+button:hover{
+	transform: scale(1.1);
+	border-color: yellow
+}
+button a{
+	text-decoration: none;
+	font-size: 17px;
+	list-style: 3px;
+	font-family: 'Great Vibes', cursive;
+	color: yellow;
+}
+button a:hover{
+	color: white;
+}
+/*------services-----*/
+
+.service-area h1 {
+	color: white;
+	font-family: Josefin;
+}
+.service-area p{
+	color: lightyellow;
+	font-size: 15px;
+	letter-spacing: 1.6px;
+	font-family: Josefin;
+
+}
+
+
+.service-wrap{
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	overflow: hidden;
+	padding: 25px 35px;
+	position: relative;
+	transition: all 0.5s ease 0s;
+	z-index: 5;
+	margin-top: 20px;
+}
+.service-wrap:hover{
+	color: white;
+	transform: scale(1.05);
+	border: 2px solid yellow;
+}
+.service-wrap h3 {
+	color: yellow;
+	font-size: 30px;
+	font-family: Josefin;
+}
+.service-wrap:hover h3 {
+	color: lightyellow;
+	text-decoration: none;
+}
+.service-wrap:hover h3:after{
+	background-color: yellow;
+}
+.service-icon i{
+	font-size: 25px;
+	margin-bottom: 3px;
+	transition: all 0.5s;
+	color: red;
+}
+.service-wrap:hover .service-icon i{
+	transform: rotate(360deg);
+}
+.service-wrap h3 a{
+	color: lightyellow;
+	font-size: 25px;
+	font-weight: 700;
+	padding-bottom: 15px;
+	position: relative;
+	font-family: Josefin;
+}
+.service-wrap p{
+	color: deepskyblue;
+	font-family: Josefin;
+}
+.service-wrap:hover p{
+    color: skyblue;
+}
+.service-wrap h2 a{
+     text-decoration: none;
+     font-size: 20px;
+      font-family: 'Great Vibes', cursive;
+	 letter-spacing: 2px;
+	 color: yellow;
+}
+.service-wrap h2 a:hover{
+	color: white;
+	border: 1px solid yellow !important;
+	border-radius: 100px;
+	padding: 5px 10px 0px 15px;
+}
+
+/*------development-----*/
+
+.development-area h2{
+	color: white;
+	font-family: Josefin;
+}
+.development-area p{
+	color: lightyellow;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	font-family: Josefin;
+	
+}
+.development-wrap{
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	background-color:rgba(0,0,0,0.4);
+	color: white;
+	overflow: hidden;
+	font-weight: 500;
+	padding: 35px 45px;
+	position: relative;
+	transition: all 0.5s ease 0s;
+	z-index: 5;
+	margin-top: 20px;
+	font-family: Josefin;
+}
+
+.development-wrap:hover{
+	color: white;
+	transform: scale(1.05);
+}
+
+.development-wrap h3 {
+	color: yellow;
+}
+.development-wrap:hover h3 {
+	color: lightyellow;
+	text-decoration: none;
+}
+.development-wrap p{
+    color: deepskyblue
+}
+
+.development-wrap:hover p{
+    color: skyblue;
+}
+.development-icon i{
+	font-size: 25px;
+	margin-bottom: 3px;
+	transition: all 0.5s;
+	color: red;
+}
+.development-wrap:hover .development-icon i{
+	transform: rotate(360deg);
+}
+.development-wrap h3 a{
+	color: lightyellow;
+	font-size: 25px;
+	font-weight: 700;
+	padding-bottom: 15px;
+	position: relative;
+	font-family: Josefin;
+}
+.development-wrap h1 a{
+     text-decoration: none;
+     font-size: 20px;
+      font-family: 'Great Vibes', cursive;
+	 letter-spacing: 2px;
+	 color: yellow !important;
+}
+.development-wrap h1 a:hover{
+	color: white !important;
+	border: 1px solid yellow !important;
+	border-radius: 100px;
+	padding: 5px 10px 0px 15px;
+}
+/*--------language start--------*/
+.language h2{
+	color: white;
+	font-family: Josefin;
+}
+.language p{
+	color: lightyellow;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	font-family: Josefin;
+}
+
+.language-wrap{
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	background-color:rgba(0,0,0,0.4);
+	overflow: hidden;
+	font-weight: 500;
+	padding: 5px 65px;
+	position: relative;
+	transition: all 0.5s ease 0s;
+	z-index: 5;
+	margin-top: 20px;
+	font-family: Josefin;
+}
+.language-wrap:hover{
+	background-color:rgba(0,0,0,1);
+	color: white;
+	transform: scale(1.05);
+	border: 100px solid antiquewhite !important;
+}
+.language-wrap h3{
+	color: yellow;
+	font-size: 30px;
+}
+.language-wrap:hover h3 {
+	color: lightyellow;
+	text-decoration: none;
+}
+
+.language-wrap p{
+	color: deepskyblue;
+}
+.language-wrap:hover p{
+	color: white;
+}
+.language-wrap h1 a{
+	text-decoration: none;
+	color: orangered;
+	font-size: 25px;
+	letter-spacing: 3px;
+    font-family: 'Great Vibes', cursive;
+}
+.language-wrap h1 a:hover{
+	color: white;
+	border: 1px solid yellow !important;
+	border-radius: 100px;
+	padding: 5px 10px 0px 15px;
+}
+
+.language-wrap h2 a{
+	text-decoration: none;
+	color: yellow;
+	font-size: 25px;
+	margin-top: -5px;
+	 font-family: 'Great Vibes', cursive;
+	 letter-spacing: 2px;
+}
+.language-wrap h2 a:hover{
+	color: white;
+	border: 1px solid yellow !important;
+	border-radius: 100px;
+	padding: 5px 10px 0px 15px;
+}
+
+
+/*--------language end-------*/
+
+/*--------Enviournment start--------*/
+.enviournment h5{
+	color: white;
+	font-size: 30px;
+	font-weight: 500;
+	font-family: Josefin;
+}
+.enviournment p{
+	color: lightyellow !important;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	font-family: Josefin;
+}
+
+.enviournment-wrap{
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	background-color:rgba(0,0,0,0.4);
+	overflow: hidden;
+	font-weight: 500;
+	padding: 10px 65px;
+	position: relative;
+	transition: all 0.5s ease 0s;
+	z-index: 5;
+	margin-top: 20px;
+	font-family: Josefin;
+}
+
+.enviournment-wrap:hover{
+	color: white;
+	transform: scale(1.05);
+}
+.enviournment-wrap h4 a{
+    color: yellow;
+    font-size: 30px;
+    text-decoration: none;
+   
+}
+.enviournment-wrap h4 a:hover{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+   
+}
+.enviournment-wrap h3 a{
+	color: lightyellow;
+	text-align: center;
+    top: 10px;
+     font-family: 'Great Vibes', cursive;
+	font-size: 20px;
+	letter-spacing: 3px;
+
+}
+.enviournment-wrap h3 a:hover{
+	color: white;
+	text-decoration: none;
+	border: 1px solid yellow !important;
+	border-radius: 100px;
+	padding: 5px 10px 0px 15px;
+}
+.enviournment-wrap h2 a{
+	text-decoration: none;
+	color: orangered;
+	font-size: 20px;
+	letter-spacing: 3px;
+    font-family: 'Great Vibes', cursive;
+	margin-top: -10px;
+}
+.enviournment-wrap h2 a:hover{
+	color: white;
+	border: 1px solid yellow !important;
+	border-radius: 100px;
+	padding: 5px 10px 0px 15px;
+}
+.enviournment-wrap h1 a{
+	color: deepskyblue;
+	font-size: 30px;
+	 font-family: 'Great Vibes', cursive;	
+}
+.enviournment-wrap h1 a:hover{
+	color: white;
+	border: 1px solid yellow !important;
+	border-radius: 100px;
+	padding: 0px 25px 0px 25px;
+}
+
+
+
+/*-------about start------*/
+.aboutme{
+	color: white;
+	text-align: center;
+}
+h1.about-title{
+	color: white;
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: Josefin;
+}
+.text1{
+	color: orange;
+	margin-top: -10px;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-family: 'Slabo 27px', serif;
+}
+
+p{
+	color: lightyellow;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	font-family: 'Slabo 27px', serif;
+}
+.btn2{
+	border: 2px solid pink !important;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 100px !important;
+	padding: 5px 5px 5px 10px;
+	margin-top: 15px !important;
+}
+.btn2:hover{
+	text-decoration: none;
+	border-color: yellow !important;
+	background-color: rgba(0,0,0,0.6);
+	transform: scale(1.1);
+}
+.btn2 a{
+
+	text-decoration:none !important;
+	color: yellow;
+	font-size: 17px;
+	font-family: Josefin;
+	letter-spacing: 1px;
+}
+.btn2 a:hover{
+	text-decoration:none !important;
+	color: white;
+}
+/*----contact start------*/
+
+.contact h2{
+	top: 40px;
+	color: white;
+	font-family: Josefin;
+}
+.contact p{
+	color: orange;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	font-family: 'Slabo 27px', serif;
+	
+}
+.contact-wrap{
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	background-color:rgba(0,0,0,0.5);
+	color: white;
+	overflow: hidden;
+	font-weight: 500;
+	padding: 25px 65px;
+	position: relative;
+	transition: all 0.5s ease 0s;
+	z-index: 1;
+	margin-bottom: 60px;
+}
+.contact-wrap:hover{
+	color: white;
+	transform: scale(1.05);
+	border: 2px solid yellow;
+}
+
+.contact-wrap h1{
+	letter-spacing: 3px;
+	margin-top: 0px;
+	color: white;
+	font-family: Josefin;
+     font-family: 'Great Vibes', cursive;
+     color: green;
+}
+.contact-wrap h1:hover{
+	text-decoration: none;
+}
+
+.contact-wrap p{
+	color: white;
+	margin-top: -5px;
+	letter-spacing: 1.6px;
+	font-family: Josefin;
+}
+.contact-wrap p:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.contact-wrap h1{
+	font-size: 35px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	padding-bottom: 15px;
+	position: relative;
+	font-family: Josefin;
+     font-family: 'Great Vibes', cursive;
+}
+.social-icon{
+		margin-bottom: 20px;
+}
+.social-icon .fa{
+	color: deepskyblue !important;
+ 	border: 2px solid red;
+ 	padding: 8px;
+	color: white;
+ 	width: 35px;
+ 	height: 35px;
+ 	border-radius: 100%;
+ 	margin: -50px 0px 0 5px;
+ }
+ .social-icon .fa:hover{
+ 	text-decoration: none;
+ 	transform: scale(1.2);
+    color: yellow !important;
+ }
+.kou p{
+	text-align: center;
+	color: yellow;
+
+}
+/*End contact Section */
