@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-psq*f966k^s71^)-j#w##&_gk*(i-^eum(!d_(l+ao$od0y&9_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://hardcore-kepler-76910e.netlify.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
